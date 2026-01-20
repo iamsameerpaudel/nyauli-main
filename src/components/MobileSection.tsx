@@ -28,7 +28,7 @@ const features = [
 
 const MobileSection = () => {
   return (
-    <section id="features" className="py-12 lg:py-32 bg-background relative overflow-hidden">
+    <section id="features" className="py-12 px-4 lg:py-32 bg-background relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
 

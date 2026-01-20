@@ -32,7 +32,7 @@ const painPoints = [
 
 const CustomerPainSection = () => {
   return (
-    <section className="py-10 lg:py-20 bg-secondary/30 relative overflow-hidden">
+    <section className="py-10 px-4 lg:py-20 bg-secondary/30 relative overflow-hidden">
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         {/* Header */}
         <motion.div
@@ -77,7 +77,7 @@ const CustomerPainSection = () => {
           className="text-center"
         >
           <Link to="/blog">
-            <Button variant="mint" size="default" className="group">
+            <Button variant="mint" size="default" className="group w-full md:w-auto">
               See why customers value getting informed
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>

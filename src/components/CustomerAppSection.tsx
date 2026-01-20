@@ -23,7 +23,7 @@ const features = [
 
 const CustomerAppSection = () => {
   return (
-    <section className="py-12 lg:py-32 bg-secondary/30 relative overflow-hidden">
+    <section className="py-12 px-4 lg:py-32 bg-secondary/30 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-primary/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
 

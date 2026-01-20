@@ -5,7 +5,9 @@ import { Check, Sparkles } from "lucide-react";
 const tiers = [
   {
     name: "Starter",
-    price: "Free",
+    price: "$0",
+    period: "/month",
+
     description: "Perfect for small cafés getting started",
     cta: "Start Free",
     ctaVariant: "mint-outline" as const,
@@ -73,7 +75,7 @@ const PricingSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-4">
+          <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-4">
             Simple, transparent{" "}
             <span className="text-gradient-mint">pricing</span>
           </h2>
@@ -118,14 +120,6 @@ const PricingSection = () => {
                 )}
               </div>
 
-              <Button
-                variant={tier.ctaVariant}
-                size="lg"
-                className="w-full mb-8"
-              >
-                {tier.cta}
-              </Button>
-
               <ul className="space-y-3">
                 {tier.features.map((feature) => (
                   <li key={feature} className="flex items-start gap-3">
@@ -136,6 +130,13 @@ const PricingSection = () => {
                   </li>
                 ))}
               </ul>
+                            <Button
+                variant={tier.ctaVariant}
+                size="lg"
+                className="w-full mt-8"
+              >
+                {tier.cta}
+              </Button>
             </motion.div>
           ))}
         </div>

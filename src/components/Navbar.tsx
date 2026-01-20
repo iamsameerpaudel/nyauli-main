@@ -77,7 +77,7 @@ const Navbar = () => {
 					<div className="flex items-center gap-3">
 						{/* WhatsApp button - always visible */}
 						<a
-							href="https://wa.me/255000000000"
+							href="https://wa.me/9779804210851?text=Hi,%20I%20want%20to%20know%20more%20about%20Nyauli."
 							target="_blank"
 							rel="noopener noreferrer"
 							className="inline-flex h-10 w-10 sm:w-auto sm:px-4 items-center justify-center rounded-lg border border-border bg-card text-foreground font-medium hover:bg-secondary transition-all duration-300 gap-2"
