@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { MessageCircle, Menu, X } from "lucide-react";
+import { motion } from "framer-motion";
+import { MessageCircle, Menu } from "lucide-react";
 import {
 	Sheet,
 	SheetContent,

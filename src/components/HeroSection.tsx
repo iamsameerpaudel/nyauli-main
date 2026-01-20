@@ -15,7 +15,7 @@ const HeroSection = () => {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 ">
         {/* Mobile view - vertical layout */}
-        <div className="lg:hidden flex flex-col items-center justify-around min-h-[calc(100vh-25rem)] py-10 space-y-8">
+        <div className="lg:hidden flex flex-col items-center justify-around min-h-[calc(100vh-20rem)] py-10 space-y-8">
           {/* Top text */}
           <motion.div
             initial={{ opacity: 0, y: -30 }}
@@ -68,9 +68,6 @@ const HeroSection = () => {
               </div>
             </motion.div>
           </motion.div>
-            {/* <p className="text-sm sm:text-base lg:text-lg text-muted-foreground mb-4 sm:mb-8">
-              No more missed orders, confusion, or delays.
-            </p> */}
 
           {/* Bottom content */}
           <motion.div

@@ -79,7 +79,7 @@ const CustomerAppSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="relative order-2"
+            className="relative w-full order-2"
           >
             <div className="relative max-w-sm mx-auto">
               {/* Phone frame */}
@@ -96,7 +96,7 @@ const CustomerAppSection = () => {
                   
                   {/* Customer app content mockup */}
                   <div className="p-4 space-y-4">
-                    <div className="text-center py-2">
+                    <div className="py-2">
                       <h3 className="font-bold text-foreground">Your Order</h3>
                       <p className="text-xs text-muted-foreground">Order #1024</p>
                     </div>

@@ -40,7 +40,7 @@ const MobileSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="relative order-2 lg:order-1"
+            className="relative w-full order-2 lg:order-1"
           >
             <div className="relative max-w-sm mx-auto">
               {/* Phone frame */}
@@ -157,7 +157,7 @@ const MobileSection = () => {
           </motion.div>
 
           {/* Feature list - shown on mobile after phone mockup */}
-          <div className="order-3 lg:hidden grid sm:grid-cols-2 gap-4 mb-6">
+          <div className="order-3 lg:hidden w-full grid sm:grid-cols-2 gap-4 mb-6">
             {features.map((feature, index) => (
               <motion.div
                 key={feature.title}
