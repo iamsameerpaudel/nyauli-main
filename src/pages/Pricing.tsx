@@ -169,7 +169,7 @@ const Pricing = () => {
                   View FAQ
                 </Button>
               </Link>
-              <a href="https://wa.me/15551234567" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/9779804210851?text=Hi,%20I%20want%20to%20know%20more%20about%20Nyauli." target="_blank" rel="noopener noreferrer">
                 <Button variant="mint-ghost" size="lg">
                   Chat on WhatsApp
                 </Button>
